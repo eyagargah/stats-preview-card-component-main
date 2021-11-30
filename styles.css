@@ -102,9 +102,46 @@ body {
   }
 
   .text-content {
-    padding: 8%;
+    padding: 12% 8%;
   }
 
-  
-  
+  .stats {
+    flex-direction: column;
+    padding-top: 30px
+  }
+
+  .stat {
+    margin-top: 20px;
+  }
+
+
+  .text-content h1 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.4;
+    font-family: 'inter';
+    font-weight: 700;
+  }
+}
+
+@media only screen  and (min-width:420px) and (max-width:768px) {
+  body  {
+    font-size: 12px;
+  }
+
+  .text-content {
+    grid-template-columns: 1fr;
+  }
+
+  .text-content h1 {
+    font-size: 22px;
+  }
+
+  .stats {
+    padding-top: 30px;
+  }
+
+  .stats .header {
+    font-size:17px ;
+  }
 }
