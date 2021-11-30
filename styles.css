@@ -58,6 +58,7 @@ body {
   color: hsl(0, 0%, 100%);
   font-weight: 700;
   padding-bottom: 22px;
+  font-family: 'inter';
 }
 
 .text-content span {
@@ -67,13 +68,15 @@ body {
 .text-content p {
   color:hsla(0, 0%, 100%, 0.75) ;
   line-height: 1.8;
+  font-family: 'inter';
+  font-size: 15px;
 }
 
 .stats {
   display: flex;
   justify-content: space-between;
-  text-transform: uppercase;
   padding-top: 60px;
+  font-family: 'inter';
 }
 
 .stat .footer {
